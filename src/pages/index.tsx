@@ -48,8 +48,6 @@ export default function IndexPage() {
   if (error) return <p>Error: {error}</p>;
   if (ships.length === 0) return <p>No ships found.</p>;
 
-  const maxLength = Math.max(...ships.map((s) => s.length));
-
   return (
     <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
       {!showComparison ? (
