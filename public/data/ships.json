@@ -1,0 +1,65 @@
+[
+    {
+        "id": "arleigh",
+        "type": "Destroyer",
+        "name": "Arleigh Burke-class Destroyer",
+        "length": 154.0,
+        "pngFileName": "arleighburke.png"
+    },
+    {
+        "id": "jfk",
+        "type": "Carrier",
+        "name": "JFK-class Carrier",
+        "length": 321,
+        "pngFileName": "carrier_jfk.png"
+    },
+    {
+        "id": "nimitz",
+        "type": "Carrier",
+        "name": "Nimitz-class Carrier",
+        "length": 332.8,
+        "pngFileName": "carrier_nimitz.png"
+    },
+    {
+        "id": "kidd",
+        "type": "Destroyer",
+        "name": "Kidd-class Destroyer",
+        "length": 172,
+        "pngFileName": "kidd.png"
+    },
+    {
+        "id": "losangeles",
+        "type": "Submarine",
+        "name": "Los Angeles-class Submarine",
+        "length": 110,
+        "pngFileName": "submarine_losangeles.png"
+    },
+    {
+        "id": "submarine_virginia",
+        "type": "Submarine",
+        "name": "Virginia-class Submarine",
+        "length": 114.8,
+        "pngFileName": "submarine_virginia.png"
+    },
+    {
+        "id": "ticonderoga",
+        "type": "Cruiser",
+        "name": "Ticonderoga-class Cruiser",
+        "length": 173,
+        "pngFileName": "ticonderoga.png"
+    },
+    {
+        "id": "cruiser_virginia",
+        "type": "Cruiser",
+        "name": "Virginia-class Cruiser",
+        "length": 179,
+        "pngFileName": "virginia.png"
+    },
+    {
+        "id": "zumwalt",
+        "type": "Destroyer",
+        "name": "Zumwalt-class Destroyer",
+        "length": 182.9,
+        "pngFileName": "zumwalt.png"
+    }
+]
