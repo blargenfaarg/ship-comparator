@@ -3,10 +3,7 @@ import { Card } from "@heroui/card";
 import { Image } from "@heroui/image";
 import { Button } from "@heroui/button";
 import type { Ship } from "@/types/ships";
-import { title, subtitle } from "@/components/primitives";
 import { useState } from "react"
-import { Divider } from "@heroui/divider";
-
 
 interface ComparisonViewProps {
   ships: Ship[];
