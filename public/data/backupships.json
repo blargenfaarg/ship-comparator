@@ -1,0 +1,16 @@
+[
+    {
+        "id": "kidd",
+        "type": "Destroyer",
+        "name": "Kidd-class Destroyer",
+        "length": 172,
+        "pngFileName": "kidd.png"
+    },
+    {
+        "id": "cruiser_virginia",
+        "type": "Cruiser",
+        "name": "Virginia-class Cruiser",
+        "length": 179,
+        "pngFileName": "virginia.png"
+    }
+]

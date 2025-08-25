@@ -46,10 +46,9 @@ export default function IndexPage() {
 
   if (loading) return <p>Loading ships...</p>;
   if (error) return <p>Error: {error}</p>;
-  if (ships.length === 0) return <p>No ships found.</p>;
 
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10 mt-16">
       {!showComparison ? (
         <>
           <motion.div
@@ -66,14 +65,6 @@ export default function IndexPage() {
           </motion.div>
 
           <motion.div
-            initial={{ y: 50, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            transition={{ duration: 1.0 }}
-          >
-            <ThemeSwitch />
-          </motion.div>
-
-          <motion.div
             className="mt-8"
             initial={{ y: 50, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -85,7 +76,7 @@ export default function IndexPage() {
                   color="primary"
                   className="flex w-64"
                   isClearable={true}
-                  label="Select a Ship"
+                  label="Select two or more ships"
                   selectedKeys={value}
                   selectionMode="multiple"
                   onSelectionChange={setValue}
@@ -105,6 +96,7 @@ export default function IndexPage() {
               <div className="flex justify-center mt-8">
                 <Button
                   color="primary"
+                  className="tracking-tighter"
                   onPress={handleCompareClick}
                 >Compare</Button>
               </div>
@@ -117,11 +109,29 @@ export default function IndexPage() {
           <ComparisonView ships={
             ships.filter(ship => value instanceof Set && value.has(ship.id))
           } />
+          <motion.div
+            initial={{ y: 50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 1.0 }}
+            key={`${showComparison}`}>
+            <Button className="tracking-tighter" onPress={handleReturnClick}>Return</Button>
+          </motion.div>
 
-          <Button onPress={handleReturnClick}>Return</Button>
         </>
       )
       }
+
+      <motion.div
+        initial={{ y: 50, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 1.0 }}
+        key={`${showComparison}`}
+        className="mt-16"
+      >
+        <Card className="p-4">
+          <ThemeSwitch />
+        </Card>
+      </motion.div>
     </section>
   );
 }

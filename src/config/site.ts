@@ -1,8 +1,8 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: "Vite + HeroUI",
-  description: "Make beautiful websites regardless of your design experience.",
+  name: "Ship Comparator",
+  description: "Tool to compare naval vessels of different sizes.",
   navItems: [
     {
       label: "Home",
@@ -10,6 +10,6 @@ export const siteConfig = {
     },
   ],
   links: {
-    github: "https://github.com/frontio-ai/heroui"
+    github: "https://github.com/blargenfaarg/ship-comparator"
   },
 };

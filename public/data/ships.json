@@ -4,12 +4,19 @@
         "type": "Destroyer",
         "name": "Arleigh Burke-class Destroyer",
         "length": 154.0,
-        "pngFileName": "arleighburke.png"
+        "pngFileName": "arleighburke_2.png"
+    },
+    {
+        "id": "zumwalt",
+        "type": "Destroyer",
+        "name": "Zumwalt-class Destroyer",
+        "length": 182.9,
+        "pngFileName": "zumwalt.png"
     },
     {
         "id": "jfk",
         "type": "Carrier",
-        "name": "JFK-class Carrier",
+        "name": "Gerald R. Ford-class Carrier",
         "length": 321,
         "pngFileName": "carrier_jfk.png"
     },
@@ -21,11 +28,11 @@
         "pngFileName": "carrier_nimitz.png"
     },
     {
-        "id": "kidd",
-        "type": "Destroyer",
-        "name": "Kidd-class Destroyer",
-        "length": 172,
-        "pngFileName": "kidd.png"
+        "id": "ticonderoga",
+        "type": "Cruiser",
+        "name": "Ticonderoga-class Cruiser",
+        "length": 173,
+        "pngFileName": "ticonderoga_2.png"
     },
     {
         "id": "losangeles",
@@ -42,24 +49,38 @@
         "pngFileName": "submarine_virginia.png"
     },
     {
-        "id": "ticonderoga",
-        "type": "Cruiser",
-        "name": "Ticonderoga-class Cruiser",
-        "length": 173,
-        "pngFileName": "ticonderoga.png"
+        "id": "ohio",
+        "type": "Submarine",
+        "name": "Ohio-class Submarine",
+        "length": 170,
+        "pngFileName": "ohio.png"
     },
     {
-        "id": "cruiser_virginia",
-        "type": "Cruiser",
-        "name": "Virginia-class Cruiser",
-        "length": 179,
-        "pngFileName": "virginia.png"
+        "id": "lcs_freedom",
+        "type": "Littoral Combat Ship",
+        "name": "Freedom-class Littoral Combat Ship",
+        "length": 115,
+        "pngFileName": "lcs_freedom.png"
     },
     {
-        "id": "zumwalt",
-        "type": "Destroyer",
-        "name": "Zumwalt-class Destroyer",
-        "length": 182.9,
-        "pngFileName": "zumwalt.png"
+        "id": "lcs_independence",
+        "type": "Littoral Combat Ship",
+        "name": "Independence-class Littoral Combat Ship",
+        "length": 127,
+        "pngFileName": "lcs_independence.png"
+    },
+    {
+        "id": "titanic",
+        "type": "Passenger",
+        "name": "RMS Titanic",
+        "length": 269.06,
+        "pngFileName": "titanic.png"
+    },
+    {
+        "id": "esb",
+        "type": "Building",
+        "name": "Empire State Building",
+        "length": 443.09,
+        "pngFileName": "esb.png"
     }
 ]
